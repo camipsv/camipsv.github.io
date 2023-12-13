@@ -1,0 +1,83 @@
+/*FONDO*/
+body {
+    background-color: rgba(200,0,60,0.3);
+}
+
+/*Header*/
+header img {
+    margin-left: 700px;
+}
+
+
+/*BARRA*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+/*DISPOSICION DE LA BARRA (si no le pongo left va hacia abajo como lista normal)*/
+ul li {
+    float: left;
+}
+
+/*COLOR LETRAS BARRA*/
+li a {
+    display: block;
+    color:palevioletred;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/*COLOR DEL HOVER*/
+li:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+/*Menu DROPDOWN*/
+.dropdown {
+    position:fixed;
+    display:inline-block;
+}
+
+
+.dropdown-content {
+    display:none; /* inline block*/
+    position: absolute;
+    background-color:rgba(181, 71, 104, 0.3);
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration:solid;
+    text-align: left;
+    color:black;
+}
+
+/*COLOR DE LETRA EN DROPDOWN*/
+.dropdown-content a{
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none; 
+    text-align: left;
+    display: block;
+}
+
+/*HOVER DEL DROPDOWN*/
+.dropdown-content a:hover {
+background-color: palevioletred;
+}
+
+
+ul li:hover .dropdown-content{
+    display:block;
+}
