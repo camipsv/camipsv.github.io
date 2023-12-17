@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Barra Navegacion</title>
-    <link rel="stylesheet" href="barra_navegacion.css" type="text/CSS" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/CSS" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9c50828f27.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Cami Pastelería</title>
   </head>
   <body>
     <header>
@@ -16,11 +27,7 @@
         <div class="dropdown">
           <div class="dropdown-content">
             <a href="#inicio">Quienes somos</a>
-            <a
-              href="https://www.instagram.com/cami.pasteleria_/"
-              target="_blank">Instagram</a
-            >
-            <!--Está broken el enlace, no se puede pipipi-->
+            <!--cucatips alt+z para los textos largos, alt flecha para mover para arriba o abajo, shift + alt+ flecha arriba o abajo para copiar la linea, para seleccionar palabras de distintas filas apretar rueda en la palabra y bajar, para seleccionar una palabra en todo ctrl+d pero la selecciona uno por uno, lorem ipsum para poner mucho texto-->
             <a href="#inicio">Como comprar</a>
             <a href="#inicio">Métodos de pago</a>
             <a href="#inicio">Entregas</a>
@@ -78,7 +85,6 @@
             <a href="#inicio">Empanadas</a>
             <a href="#inicio">Pizzeta</a>
             <a href="#inicio">Mini Completos</a>
-            <a href="#inicio">Vol au vent</a>
           </div>
         </div>
       </li>
@@ -167,5 +173,60 @@
         </div>
       </li>
     </ul>
+    <h1>Mi Instagram <i class="fa-brands fa-instagram"></i></h1>
+    <!--Feed de insta-->
+    <section id="feed-contenedor">
+      <div class="main-galery">
+        <!--left-->
+        <div class="chevron">
+          <span id="prev" class="material-icons"> &#xe5cb; </span>
+        </div>
+
+        <!--galery-->
+        <div class="contenedor-galery">
+          <div class="galery"></div>
+        </div>
+
+        <!--right-->
+        <div class="chevron">
+          <span id="next" class="material-icons"> &#xe5cc; </span>
+        </div>
+      </div>
+    </section>
+
+    <h1>Quienes somos.</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facere
+      saepe tenetur quidem a, voluptatem veniam tempore dolor velit itaque
+      libero eum quisquam voluptates iure id enim fugit aperiam porro!
+    </p>
+    <h1>Horarios de atención.</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem non nulla
+      beatae in excepturi nostrum dicta itaque quod libero est, quisquam cumque
+      minus dolore laudantium. Vero saepe minima esse voluptate!
+    </p>
+    <h1>¿Como comprar?</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem non nulla
+      beatae in excepturi nostrum dicta itaque quod libero est, quisquam cumque
+      minus dolore laudantium. Vero saepe minima esse voluptate!
+    </p>
+    <h1>Metodos de pago.</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem non nulla
+      beatae in excepturi nostrum dicta itaque quod libero est, quisquam cumque
+      minus dolore laudantium. Vero saepe minima esse voluptate!
+    </p>
+    <h1>Delivery</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem non nulla
+      beatae in excepturi nostrum dicta itaque quod libero est, quisquam cumque
+      minus dolore laudantium. Vero saepe minima esse voluptate!
+    </p>
+    
+
+    <script src="api.js"></script>
+    <!--con shift+alt+f uso el prettier-->
   </body>
 </html>

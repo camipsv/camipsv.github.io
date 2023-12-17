@@ -1,0 +1,218 @@
+/*FONDO*/
+body {
+    background-color: rgba(236, 194, 219, 0.3);
+}
+
+/*Header*/
+header img {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.logo {
+    height: 150px;
+}
+
+
+/*BARRA*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+/*DISPOSICION DE LA BARRA (si no le pongo left va hacia abajo como lista normal)*/
+ul li {
+    float: left;
+}
+
+/*COLOR LETRAS BARRA*/
+li a {
+    display: block;
+    color:palevioletred;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/*COLOR DEL HOVER*/
+li:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+/*Menu DROPDOWN*/
+.dropdown {
+    position:fixed;
+    display:inline-block;
+}
+
+
+.dropdown-content {
+    display:none; /* inline block*/
+    position: absolute;
+    background-color:rgba(181, 71, 104, 0.3);
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration:solid;
+    text-align: left;
+    color:black;
+}
+
+/*COLOR DE LETRA EN DROPDOWN*/
+.dropdown-content a{
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none; 
+    text-align: left;
+    display: block;
+}
+
+/*HOVER DEL DROPDOWN*/
+.dropdown-content a:hover {
+background-color: palevioletred;
+}
+
+
+ul li:hover .dropdown-content{
+    display:block;
+}
+
+
+/*FEED INSTAGRAM*/
+
+#feed-contenedor{
+    background-color: lavender;
+    margin: 5rem 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedor-galery{
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.main-galery {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.chevron span {
+display: flex;
+align-items: center;
+position: absolute;
+z-index: 1;
+font-size: 2rem;
+color:hotpink;
+width: 4.3rem;
+height: 4.7rem;
+background-color: #ddd;
+border: 100%;
+cursor: pointer;
+}
+
+.chevron span:hover{
+background-color: #fff;
+}
+
+
+.chevron #prev{
+    padding-right: .5rem;
+    justify-content: flex-end;
+    left: 0; /*-1.7rem*/
+    width: 2rem;
+    height: 2rem;
+}
+
+.chevron #next{
+    padding-right: .5rem;
+    justify-content: flex-start;
+    left: auto; /*-1.7rem*/
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.image{
+    min-width: 20%;
+    height: 273px;
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.image:hover .opacity-hover{
+    width: 100%;
+}
+
+.caption{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(300px);
+    transition: transform 100ms linear;
+}
+
+.caption p{
+    color: white;
+    width: 80%;
+}
+
+.opacity-hover:hover .caption{
+    transform: translateY(0px);
+}
+
+.opacity-hover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: background-color 300ms linear;
+}
+
+.opacity-hover:hover{
+    background-color: black;
+}
+/*REVISAR ACERCA DE*/
+h1{
+justify-content: center;
+align-items: center;
+text-align: center;
+color:palevioletred;
+background-color: #333;
+font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: justify;
+    border-left: 15px;
+    border-right: 15px;
+}
