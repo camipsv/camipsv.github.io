@@ -1,0 +1,62 @@
+body{
+    background-color: #faebfa;
+}
+
+h2{
+    color: #1e1e1e;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* Cards*/
+
+#Proyectos{
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.card-body{
+    background-color: #ede0ed;
+}
+
+.card a{
+    color: #d35996;
+    text-decoration: none;
+}
+
+.card a:hover{
+    color: #745ed5;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+/* navbar */
+nav{
+    background-color: #272822;
+    height: 70px;
+}
+
+nav img{
+    padding-left: 3rem;
+}
+
+nav i{
+    color: #f672b4;
+}
+
+.navbar-nav .nav-link{
+    background-color: #24242353;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f672b4; /* Cambia el color al pasar el ratón */
+    transition: color 0.3s ease; /* Efecto de transición */
+}

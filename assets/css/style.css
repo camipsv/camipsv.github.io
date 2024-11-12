@@ -1,0 +1,167 @@
+
+body{
+    background-color: #f2dee8;
+}
+
+/* navbar */
+nav{
+    background-color: #272822;
+    height: 70px;
+}
+
+nav img{
+    padding-left: 3rem;
+}
+
+nav i{
+    color: #f672b4;
+}
+
+.navbar-nav .nav-link{
+    background-color: #24242353;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f672b4;
+    transition: color 0.3s ease; /* Efecto de transición */
+}
+
+/* header */
+
+header{
+    background-color: rgb(55, 52, 58);
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+header img{
+    width: 230px;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+header h2{
+    text-justify: right;
+}
+
+h2 img{
+    width:60px;
+    height: 70px;
+}
+
+
+
+/* Acerca de mi*/
+#Acerca-de-mi{
+    color: rgb(55, 52, 58);
+}
+
+#Acerca-de-mi img{
+    height: 400px;
+}
+
+
+
+
+/* Formacion*/
+#Formación{
+    color: rgb(55, 52, 58);
+}
+
+#Formación h3{
+    color:rgb(55, 52, 58);
+    text-decoration: underline;
+}
+
+#Formación i{
+    color:#df69a8f2;
+}
+
+.box{
+    border: 2px solid black; /* Bordes exteriores */
+    padding: 10px; /* Espacio entre el borde y el contenido */
+}
+
+/* Experiencia*/
+.trabajos h5{
+    color:#df69a8f2;
+}
+ .trabajos h4 a{
+    color: #884bf9;
+    text-decoration: none;
+    
+ }
+
+ .trabajos h4 a:hover{
+    color:#f31693;
+ }
+
+
+/* aptitudes y habilidades*/
+#Habilidades{
+    margin-top: 4rem;
+    color: rgb(55, 52, 58);
+}
+
+#Habilidades h3{
+    color:#df69a8f2;
+}
+
+#Habilidades p{
+    transition: transform 0.3s ease; /* Para hacer el efecto suave */
+    font-size: 16px;
+}
+
+
+#Habilidades p:hover {
+    color:#f672b4;
+    transform: scale(1.5); /* Aumenta el tamaño de la palabra al 150% */
+}
+
+#Habilidades .aptitud i{
+    color:#d4c164f2
+}
+
+#Habilidades .habilidad i{
+    color:#8857f3
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+footer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f5a2cb;
+}
+
+.contact-item {
+    margin: 0.5rem 0;
+}
+
+.contact-item a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-flex; /* Cambiado para aplicar gap */
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #f672b4;
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+}
+
+
